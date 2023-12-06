@@ -1,0 +1,10 @@
+server:
+  port: 1234
+spring:
+  application:
+    name: netty-demo-server
+  datasource:
+    url: jdbc:mysql://10.1.64.9:3306/operation?rewriteBatchedStatements=true&useUnicode=true&characterEncoding=utf-8&characterSetResults=UTF-8&autoReconnect=true&allowMultiQueries=true&useSSL=false
+    username: root
+    password: Mcmc@2023
+    driver-class-name: com.mysql.cj.jdbc.Driver
